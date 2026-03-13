@@ -282,7 +282,7 @@ No ROS, no AirSim, no robotics libraries. Pure Python.
 B.Tech Computer Science & Engineering  
 Applying for MSc Robotics — TU Munich / KIT / TU Berlin  
 
-[GitHub](https://www.linkedin.com/in/renukeswar-medisetti-rk/) · [LinkedIn](https://github.com/MedisettiRenukeswar)
+[LinkedIn](https://www.linkedin.com/in/renukeswar-medisetti-rk/) · [GitHub](https://github.com/MedisettiRenukeswar)
 
 ---
 
