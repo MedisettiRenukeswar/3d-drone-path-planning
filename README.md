@@ -278,11 +278,11 @@ No ROS, no AirSim, no robotics libraries. Pure Python.
 
 ## 👤 Author
 
-**Your Name**  
+**Medisetti Renukeswar**  
 B.Tech Computer Science & Engineering  
 Applying for MSc Robotics — TU Munich / KIT / TU Berlin  
 
-[GitHub](https://github.com/yourusername) · [LinkedIn](https://linkedin.com/in/yourprofile)
+[GitHub](https://www.linkedin.com/in/renukeswar-medisetti-rk/) · [LinkedIn](https://github.com/MedisettiRenukeswar)
 
 ---
 
