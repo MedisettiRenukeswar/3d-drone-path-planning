@@ -176,6 +176,72 @@ Anti-windup and output clamping prevent actuator saturation.
 
 ---
 
+## 📸 Visualization Results
+
+### Phase 1 — 3D Environment
+
+![3D Environment](results/phase1_environment.png)
+
+This shows the generated 3D voxel occupancy grid with randomly placed obstacles.
+
+---
+
+### Phase 2 — A* Path Planning
+
+![A* Path Planning](results/phase2_astar.png)
+
+A* computes the optimal path from start to goal using a Euclidean heuristic and 26-connected neighbor expansion.
+
+---
+
+### Phase 2 — RRT* Path Planning
+
+![RRT* Path Planning](results/phase2_rrt_star.png)
+
+RRT* explores the configuration space using probabilistic sampling and improves the path using rewiring.
+
+---
+
+### Phase 2 — Algorithm Comparison
+
+![Algorithm Comparison](results/phase2_comparison.png)
+
+Side-by-side comparison between deterministic A* and sampling-based RRT*.
+
+---
+
+### Phase 2 — Performance Metrics
+
+![Planning Metrics](results/phase2_metrics.png)
+
+Comparison of path length, nodes explored, and planning time.
+
+---
+
+### Phase 3 — Dynamic Replanning
+
+![Dynamic Replanning](results/phase3_replanning.png)
+
+When a new obstacle appears mid-flight, the planner detects blockage and recomputes a safe path.
+
+---
+
+### Phase 4 — Drone Flight Simulation (A*)
+
+![Drone Flight A*](results/phase4_flight_astar.gif)
+
+Drone trajectory following A* waypoints using PID control.
+
+---
+
+### Phase 4 — Drone Flight Simulation (RRT*)
+
+![Drone Flight RRT*](results/phase4_flight_rrt.gif)
+
+Drone trajectory following RRT* path with PID waypoint tracking.
+
+---
+
 ## 🔬 Design Decisions & Tradeoffs
 
 **Why implement from scratch?**
