@@ -47,7 +47,7 @@ drone_path_planning/
 
 ```bash
 # Clone the repo
-git clone https://github.com/yourusername/drone-path-planning.git
+git clone https://github.com/MedisettiRenukeswar/3d-drone-path-planning.git
 cd drone-path-planning
 
 # Install dependencies
